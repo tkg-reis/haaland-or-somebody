@@ -39,7 +39,7 @@ export default function Home() {
   //   personChangeHandler(selectedOption);
   // },[selectedOption])
 
-  let url = `https://pixabay.com/api/?key=${process.env.NEXT_PUBLIC_PIXABAY_APIKEY}&q=金髪`;
+  let url = `https://pixabay.com/api/?key=${process.env.NEXT_PUBLIC_PIXABAY_API}&q=金髪`;
 
   useEffect(() => {
     const getData = async() => {
