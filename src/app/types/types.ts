@@ -1,5 +1,6 @@
+// 山之内案件
 export interface radioButtonGroup {
-    options : any;
+    options : string[];
     selectedOptions : string;
-    onChange : any
+    onChange : (e: any) => void;
 }

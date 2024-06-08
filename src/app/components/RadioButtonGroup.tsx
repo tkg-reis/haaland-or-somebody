@@ -3,7 +3,7 @@ import { radioButtonGroup } from '../types/types'
 
 const RadioButtonGroup = ({options, selectedOptions, onChange} : radioButtonGroup) => {
   return (
-    <div className='text-center'>
+    <div className='text-center m-4'>
         {options.map((opt : string) => {
             return(
                 <label htmlFor="" key={opt}>
